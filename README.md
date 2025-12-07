@@ -12,6 +12,16 @@ This isn’t a toy project. **This is a complete system-level browser.**
 
 ---
 
+## 📸 Screenshots
+
+<p align="center">
+  <img src="./screenshots/main-ui.png" alt="G-Browser Main Interface" width="45%">
+  &nbsp; &nbsp;
+  <img src="./screenshots/settings.png" alt="Settings and Neon Sidebar" width="45%">
+</p>
+
+---
+
 ## 🔥 Core Features (v1.0)
 
 ### 🟦 Multi-Tab Engine
