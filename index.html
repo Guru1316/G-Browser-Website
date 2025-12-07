@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>G-Browser — The Fastest Privacy-Focused Browser</title>
+  <meta name="description" content="Download G-Browser - A blazing fast, privacy-focused browser with built-in ad-blocker and wolf-powered performance. Free for Windows.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon"  href="assets/wolf-logo.png">
+  
+  <!-- Open Graph for social sharing -->
+  <meta property="og:title" content="G-Browser - Fast. Private. Wolf-Powered.">
+  <meta property="og:description" content="The next-generation browser with built-in ad-blocker and privacy protection.">
+  <meta property="og:image" content="assets/screenshots/main-interface.jpg">
+  <meta property="og:url" content="https://gbrowser.com">
+  <meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body>
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-brand">
+        <img src="assets/wolf-logo.png" alt="G-Browser Logo" class="nav-logo">
+        <span class="brand-text">G-Browser</span>
+      </div>
+      
+      <div class="nav-links">
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#screenshots" class="nav-link">Screenshots</a>
+        <a href="#download" class="nav-link">Download</a>
+        <a href="#faq" class="nav-link">FAQ</a>
+      </div>
+      
+      <button class="nav-menu-btn" id="menuBtn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="home">
+    <div class="hero-background">
+      <div class="particles" id="particles"></div>
+      <div class="gradient-overlay"></div>
+    </div>
+    
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-text">🚀 VERSION 1.0 LAUNCHED</span>
+      </div>
+      
+      <div class="hero-logo-container">
+        <img src="assets/wolf-logo.png" alt="Wolf Logo" class="hero-logo">
+        <div class="logo-glow"></div>
+      </div>
+      
+      <h1 class="hero-title">
+        <span class="title-line">Browse Faster,</span>
+        <span class="title-line highlight">Browse Smarter</span>
+      </h1>
+      
+      <p class="hero-subtitle">
+        Meet <span class="highlight-text">G-Browser</span> - The browser that puts <span class="highlight-text">speed</span>, 
+        <span class="highlight-text">privacy</span>, and <span class="highlight-text">simplicity</span> first. 
+        Built for the modern web.
+      </p>
+      
+      <div class="hero-stats">
+        <div class="stat">
+          <div class="stat-number">95%</div>
+          <div class="stat-label">Ads Blocked</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">134K+</div>
+          <div class="stat-label">Filter Rules</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">100%</div>
+          <div class="stat-label">Privacy</div>
+        </div>
+      </div>
+      
+      <div class="hero-actions">
+        <a href="download/G-Browser-Setup.exe" class="download-btn-primary">
+          <span class="btn-icon">⬇</span>
+          Download G-Browser v1.0
+          <span class="btn-subtext">Windows 10/11 • 90 MB • Free Forever</span>
+        </a>
+        
+        <a href="#screenshots" class="secondary-btn">
+          <span class="btn-icon">👀</span>
+          View Screenshots
+        </a>
+      </div>
+      
+      <div class="trust-badges">
+        <div class="badge">
+          <span class="badge-icon">⚡</span>
+          2x Faster
+        </div>
+        <div class="badge">
+          <span class="badge-icon">🛡️</span>
+          Ad-Blocker
+        </div>
+        <div class="badge">
+          <span class="badge-icon">🔒</span>
+          No Tracking
+        </div>
+        <div class="badge">
+          <span class="badge-icon">🎯</span>
+          Open Source
+        </div>
+      </div>
+    </div>
+    
+    <div class="scroll-indicator">
+      <div class="mouse">
+        <div class="wheel"></div>
+      </div>
+      <span>Scroll to explore</span>
+    </div>
+  </section>
+
+  <!-- FEATURES SECTION -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">
+          <span class="title-prefix">//</span>
+          Why Choose G-Browser?
+          <span class="title-suffix">//</span>
+        </h2>
+        <p class="section-subtitle">Everything you need for fast, secure, and private browsing</p>
+      </div>
+      
+      <div class="features-grid">
+        <!-- Feature 1 -->
+        <div class="feature-card" data-aos="fade-up">
+          <div class="feature-icon">
+            <div class="icon-wrapper">
+              <span>⚡</span>
+            </div>
+          </div>
+          <h3 class="feature-title">Built for Speed</h3>
+          <p class="feature-description">
+            Experience lightning-fast page loads with our optimized rendering engine. 
+            Tabs open instantly and switching is seamless.
+          </p>
+          <ul class="feature-list">
+            <li>Quick tab switching</li>
+            <li>Minimal memory usage</li>
+            <li>Hardware acceleration</li>
+            <li>Session restore</li>
+          </ul>
+        </div>
+        
+        <!-- Feature 2 -->
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="feature-icon">
+            <div class="icon-wrapper">
+              <span>🛡️</span>
+            </div>
+          </div>
+          <h3 class="feature-title">Advanced Ad-Blocker</h3>
+          <p class="feature-description">
+            Blocks ads, trackers, and malware with 134,000+ filter rules. 
+            Enjoy clean, distraction-free browsing.
+          </p>
+          <ul class="feature-list">
+            <li>95% ad blocking rate</li>
+            <li>YouTube ad blocking</li>
+            <li>Privacy protection</li>
+            <li>No speed impact</li>
+          </ul>
+        </div>
+        
+        <!-- Feature 3 -->
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="feature-icon">
+            <div class="icon-wrapper">
+              <span>📚</span>
+            </div>
+          </div>
+          <h3 class="feature-title">Smart Bookmarks</h3>
+          <p class="feature-description">
+            Organized bookmark management with quick search. 
+            Access your favorite sites instantly with sidebar.
+          </p>
+          <ul class="feature-list">
+            <li>Quick search bookmarks</li>
+            <li>Slide-out sidebar</li>
+            <li>Favicon support</li>
+            <li>Easy organization</li>
+          </ul>
+        </div>
+        
+        <!-- Feature 4 -->
+        <div class="feature-card" data-aos="fade-up">
+          <div class="feature-icon">
+            <div class="icon-wrapper">
+              <span>📜</span>
+            </div>
+          </div>
+          <h3 class="feature-title">Browsing History</h3>
+          <p class="feature-description">
+            Keep track of your browsing with detailed history. 
+            Search, manage, and clear with just one click.
+          </p>
+          <ul class="feature-list">
+            <li>Searchable history</li>
+            <li>One-click clear</li>
+            <li>Timeline view</li>
+            <li>Privacy controls</li>
+          </ul>
+        </div>
+        
+        <!-- Feature 5 -->
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="feature-icon">
+            <div class="icon-wrapper">
+              <span>⚙️</span>
+            </div>
+          </div>
+          <h3 class="feature-title">Full Customization</h3>
+          <p class="feature-description">
+            Customize your browsing experience with multiple search engines, 
+            homepage settings, and more.
+          </p>
+          <ul class="feature-list">
+            <li>4 search engines</li>
+            <li>Custom homepage</li>
+            <li>Ad-block toggle</li>
+            <li>Session restore</li>
+          </ul>
+        </div>
+        
+        <!-- Feature 6 -->
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="feature-icon">
+            <div class="icon-wrapper">
+              <span>🐺</span>
+            </div>
+          </div>
+          <h3 class="feature-title">Wolf-Powered</h3>
+          <p class="feature-description">
+            Built with passion and precision. G-Browser represents strength, 
+            speed, and intelligence in browsing.
+          </p>
+          <ul class="feature-list">
+            <li>Built from scratch</li>
+            <li>Regular updates</li>
+            <li>Community driven</li>
+            <li>Future features planned</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SCREENSHOTS SECTION -->
+  <section class="screenshots" id="screenshots">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">
+          <span class="title-prefix">//</span>
+          See G-Browser in Action
+          <span class="title-suffix">//</span>
+        </h2>
+        <p class="section-subtitle">Take a tour of our clean, modern interface</p>
+      </div>
+      
+      <div class="screenshot-container">
+        <div class="screenshot-main">
+          <div class="browser-frame">
+            <div class="browser-header">
+              <div class="browser-controls">
+                <span class="control red"></span>
+                <span class="control yellow"></span>
+                <span class="control green"></span>
+              </div>
+              <div class="browser-url">G-Browser - Fast. Private. Wolf-Powered.</div>
+            </div>
+            <div class="screenshot-display" id="mainScreenshot">
+              <img src="assets/main-interface.png" alt="G-Browser Main Interface" class="screenshot-img active" data-id="1">
+              <img src="assets/bookmarks-sidebar.png" alt="Bookmarks Sidebar" class="screenshot-img" data-id="2">
+              <img src="assets/settings-panel.png" alt="Settings Panel" class="screenshot-img" data-id="3">
+              <img src="assets/history-timeline.png" alt="History Timeline" class="screenshot-img" data-id="4">
+            </div>
+          </div>
+        </div>
+        
+        <div class="screenshot-thumbnails">
+          <div class="thumbnail active" data-image="1">
+            <img src="assets/thumb-main.png" alt="Main Interface" class="thumbnail-img">
+            <div class="thumbnail-label">Main Interface</div>
+          </div>
+          <div class="thumbnail" data-image="2">
+            <img src="assets/thumb-bookmarks.png" alt="Bookmarks" class="thumbnail-img">
+            <div class="thumbnail-label">Bookmarks Sidebar</div>
+          </div>
+          <div class="thumbnail" data-image="3">
+            <img src="assets/thumb-settings.png" alt="Settings" class="thumbnail-img">
+            <div class="thumbnail-label">Settings Panel</div>
+          </div>
+          <div class="thumbnail" data-image="4">
+            <img src="assets/thumb-history.png" alt="History" class="thumbnail-img">
+            <div class="thumbnail-label">History Timeline</div>
+          </div>
+        </div>
+        
+        <div class="screenshot-description" id="screenshotDescription">
+          <h3>Clean & Modern Interface</h3>
+          <p>Experience browsing with our intuitive interface that puts content first. 
+          Minimal design, maximum productivity.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DOWNLOAD SECTION -->
+  <section class="download-section" id="download">
+    <div class="container">
+      <div class="download-card">
+        <div class="download-content">
+          <h2 class="download-title">Ready to Upgrade Your Browser?</h2>
+          <p class="download-subtitle">Join the G-Browser revolution today</p>
+          
+          <div class="download-info">
+            <div class="info-item">
+              <span class="info-icon">⚡</span>
+              <div class="info-text">
+                <strong>Lightning Fast</strong>
+                <span>90 MB • Installs in seconds</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <span class="info-icon">🛡️</span>
+              <div class="info-text">
+                <strong>Complete Privacy</strong>
+                <span>No tracking • No data collection</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <span class="info-icon">🎯</span>
+              <div class="info-text">
+                <strong>Free Forever</strong>
+                <span>No subscriptions • No hidden costs</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="download-actions">
+            <a href="download/G-Browser-Setup.exe" class="download-btn-large">
+              <span class="btn-icon-large">🚀</span>
+              <div class="btn-text">
+                <strong>Download G-Browser v1.0</strong>
+                <span>For Windows 10/11 • 64-bit • Free Download</span>
+              </div>
+            </a>
+            
+            <div class="version-info">
+              <p><span class="version-tag">Latest Version 1.0.0</span> • Built with passion by Guruprasad K</p>
+              <p class="system-requirements">
+                <strong>System Requirements:</strong> Windows 10/11 • 2GB RAM • 350MB Free Space
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="download-stats">
+          <div class="stats-container">
+            <div class="stat-circle">
+              <div class="circle-progress" data-percent="95">
+                <span class="percent">95%</span>
+              </div>
+              <div class="stat-label">Ad Blocking</div>
+              <div class="stat-detail">134K+ filters</div>
+            </div>
+            <div class="stat-circle">
+              <div class="circle-progress" data-percent="100">
+                <span class="percent">100%</span>
+              </div>
+              <div class="stat-label">Privacy Safe</div>
+              <div class="stat-detail">No tracking</div>
+            </div>
+            <div class="stat-circle">
+              <div class="circle-progress" data-percent="85">
+                <span class="percent">85%</span>
+              </div>
+              <div class="stat-label">Faster Loading</div>
+              <div class="stat-detail">Than competitors</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ SECTION -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">
+          <span class="title-prefix">//</span>
+          Frequently Asked Questions
+          <span class="title-suffix">//</span>
+        </h2>
+        <p class="section-subtitle">Get answers to common questions about G-Browser</p>
+      </div>
+      
+      <div class="faq-grid">
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>Is G-Browser really completely free?</span>
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">
+            <p><strong>Absolutely!</strong> G-Browser is 100% free with no hidden costs, subscriptions, or premium tiers. 
+            Everything you see is available at zero cost.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>How effective is the built-in ad-blocker?</span>
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">
+            <p>Our ad-blocker uses <strong>134,000+ filter rules</strong> and blocks approximately <strong>95% of ads</strong>, 
+            including YouTube ads, popups, banners, and tracking scripts. It works silently in the background.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>Can I import bookmarks from Chrome/Firefox?</span>
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">
+            <p><strong>Bookmark import is planned for Version 2!</strong> In the current version (v1.0), you'll need to manually add your favorite websites to bookmarks.</p>
+<!--             
+            <p>Here's how it works in v1.0:</p>
+            <ul>
+              <li><strong>Easy bookmarking:</strong> Click the ☆ star button in the URL bar to add any page</li>
+              <li><strong>Smart organization:</strong> Use the bookmarks sidebar (Ctrl+B) to organize and search</li>
+              <li><strong>Quick access:</strong> All bookmarks are instantly searchable with our sidebar search</li>
+            </ul>
+            
+            <p><strong>What's coming in v2:</strong> One-click import from Chrome, Firefox, and other browsers!</p> -->
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>Is my browsing data safe and private?</span>
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">
+            <p><strong>100% private.</strong> We don't collect ANY personal data. Your bookmarks, history, 
+            and settings are stored locally on your computer. No tracking, no analytics, no data selling.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>What features are planned for future versions?</span>
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">
+            <p>G-Browser v2 will include: Download manager UI, Enhanced ad-blocking, 
+            Themes/skins, Extensions support, Password manager, and Mac/Linux versions.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>How can I support G-Browser development?</span>
+            <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">
+            <p>You can: <strong>1)</strong> Use G-Browser and share with friends, 
+            <strong>2)</strong> Report bugs or suggest features, 
+            <strong>3)</strong> Contribute code on GitHub, 
+            <strong>4)</strong> Spread the word on social media.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <img src="assets/wolf-logo.png" alt="G-Browser Logo" class="footer-logo">
+          <div class="brand-info">
+            <h3>G-Browser</h3>
+            <p>Fast. Private. Wolf-Powered.</p>
+            <div class="footer-tagline">The browser that respects your privacy</div>
+          </div>
+        </div>
+        
+        <div class="footer-links">
+          <div class="link-group">
+            <h4>Product</h4>
+            <a href="#features">Features</a>
+            <a href="#screenshots">Screenshots</a>
+            <a href="#download">Download</a>
+            <a href="#faq">FAQ</a>
+          </div>
+<!--           
+          <div class="link-group">
+            <h4>Legal</h4>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="terms.html">Terms of Service</a>
+            <a href="cookies.html">Cookie Policy</a>
+          </div>
+           -->
+          <div class="link-group">
+            <h4>Connect</h4>
+            <a href="https://github.com/Guru1316" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/guruprasad-k-713994314/" target="_blank">Linkedin</a>
+            <a href="mailto:guruprasadgdr1@gmail.com">Email</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>© 2025 G-Browser. All rights reserved. Built by Guruprasad K.</p>
+        <p class="footer-note">"Wolf-Powered" is a trademark of G-Browser.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true,
+      offset: 100
+    });
+  </script>
+</body>
+</html>
